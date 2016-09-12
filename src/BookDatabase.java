@@ -11,7 +11,11 @@ public class BookDatabase {
 		
 		String[] output = process(input);
 		
-		System.out.println(Arrays.toString(output));
+		System.out.println("SKU: " + output[0]);
+		System.out.println("Title: " + output[1]);
+		System.out.println("Author: " + output[3]);
+		System.out.println("Description: " + output[3]);
+		System.out.println("Price: " + output[4]);
 		
 		
 	}
