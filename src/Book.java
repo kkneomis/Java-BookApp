@@ -63,6 +63,16 @@ public class Book {
 		isInStock = status;
 	}
 	
+	public double getPrice(double quantity){
+		if(isInStock == true){
+			return price * quantity;
+		} else {
+			System.out.println("Out of Stock");
+			return 0;
+		}
+		
+	}
+	
 	
 	
 }//end Book class
