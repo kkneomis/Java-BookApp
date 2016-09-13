@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class BookDatabase {
@@ -15,9 +14,7 @@ public class BookDatabase {
 		System.out.println("Title: " + output[1]);
 		System.out.println("Author: " + output[3]);
 		System.out.println("Description: " + output[3]);
-		System.out.println("Price: " + output[4]);
-		
-		
+		System.out.println("Price: " + output[4]);	
 	}
 	
 	public static String[] process(String input){
